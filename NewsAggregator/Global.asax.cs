@@ -17,7 +17,7 @@ namespace NewsAggregator
 		    System.Diagnostics.Debug.WriteLine("Hello");
 		    string albumRSS;
 		    List<string> urls = new List<string>();
-		    urls.Add("http://rss.detik.com");
+		    urls.Add("http://rss.detik.com/index.php");
 		    urls.Add("http://rss.vivanews.com/get/all");
 		    foreach (string url in urls)
 		    {

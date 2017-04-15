@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a807742-b57a-4809-8271-3a0d3cbd0d49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/Global.asax" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/NewsAggregator.csproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/Web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/index.aspx" />
-    </list>
+    <list default="true" id="4a807742-b57a-4809-8271-3a0d3cbd0d49" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,73 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Global.asax.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <marker date="1492090574000" expanded="true" signature="6:174" ph="..." />
-                <marker date="1492090574000" expanded="true" signature="200:761" ph="{...}" />
-                <marker date="1492090574000" expanded="true" signature="241:759" ph="{...}" />
-                <marker date="1492090574000" expanded="true" signature="329:756" ph="{...}" />
-                <marker date="1492090574000" expanded="true" signature="622:752" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Global.asax" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.aspx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/index.aspx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <marker date="1492094418000" expanded="true" signature="175:967" ph="&lt;html.../&gt;" />
-                <marker date="1492094418000" expanded="true" signature="182:440" ph="&lt;head.../&gt;" />
-                <marker date="1492094418000" expanded="true" signature="441:959" ph="&lt;body.../&gt;" />
-                <marker date="1492094418000" expanded="true" signature="449:950" ph="&lt;form.../&gt;" />
-                <marker date="1492094418000" expanded="true" signature="485:603" ph="&lt;div.../&gt;" />
-                <marker date="1492094418000" expanded="true" signature="609:876" ph="&lt;div.../&gt;" />
-                <marker date="1492094418000" expanded="true" signature="642:865" ph="&lt;div.../&gt;" />
-                <marker date="1492094418000" expanded="true" signature="677:850" ph="&lt;select.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Web.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="packages.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/packages.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,10 +83,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NewsAggregator (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewsAggregator" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,12 +179,12 @@
       <workItem from="1492059601021" duration="276000" />
       <workItem from="1492059988351" duration="6525000" />
       <workItem from="1492078794861" duration="954000" />
-      <workItem from="1492087035572" duration="5796000" />
+      <workItem from="1492087035572" duration="6450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13616000" />
+    <option name="totallyTimeSpent" value="14270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,13 +264,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1492090574000" expanded="true" signature="6:174" ph="..." />
-            <marker date="1492090574000" expanded="true" signature="200:761" ph="{...}" />
-            <marker date="1492090574000" expanded="true" signature="241:759" ph="{...}" />
-            <marker date="1492090574000" expanded="true" signature="329:756" ph="{...}" />
-            <marker date="1492090574000" expanded="true" signature="622:752" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,16 +328,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1492094418000" expanded="true" signature="175:967" ph="&lt;html.../&gt;" />
-            <marker date="1492094418000" expanded="true" signature="182:440" ph="&lt;head.../&gt;" />
-            <marker date="1492094418000" expanded="true" signature="441:959" ph="&lt;body.../&gt;" />
-            <marker date="1492094418000" expanded="true" signature="449:950" ph="&lt;form.../&gt;" />
-            <marker date="1492094418000" expanded="true" signature="485:603" ph="&lt;div.../&gt;" />
-            <marker date="1492094418000" expanded="true" signature="609:876" ph="&lt;div.../&gt;" />
-            <marker date="1492094418000" expanded="true" signature="642:865" ph="&lt;div.../&gt;" />
-            <marker date="1492094418000" expanded="true" signature="677:850" ph="&lt;select.../&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>

@@ -34,8 +34,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Style\search.css" />
+    <Content Include="views\search.aspx" />
+    <Content Include="Style\index.css" />
     <Content Include="Web.config" />
-    <Content Include="index.aspx" />
+    <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -44,10 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content" />
-    <Folder Include="Scripts" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
