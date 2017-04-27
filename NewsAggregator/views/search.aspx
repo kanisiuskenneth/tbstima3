@@ -1,9 +1,11 @@
-﻿<%@ Page Language="C#" %>
+﻿<!--
+<%@ Page Language="C#" %>
+<%@ Import Namespace="System.Collections.Generic" %>
 <%@ Import Namespace="System.ServiceModel.Syndication" %>
 <%@ Import Namespace="NewsAggregator" %>
 <%@ Import Namespace="NewsAggregator.parser" %>
-
-
+<%@ Import Namespace="searcher" %>
+!-->
 
 <!DOCTYPE html">
 <html>
@@ -15,28 +17,60 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <script>
+        function redirect(x) {
+            alert(x);
+            window.location.assign(x);
+        }
+    </script>
 </head>
 <body>
     <div class="content">
-        <%
-        string query = Request.QueryString["query"];
-        string algo = Request.QueryString["algo"];
+      <a class=item>
+          <div>
+              <img class="itemhead" src="something.jpg"/>
+              <span class="title"> SOMEHTINF</span>
+          </div>
+      </a>
+      <%
 
-        foreach(News news in Global.newslist)
-        {
+          string pattern = Request.QueryString["query"];
+          string algo = Request.QueryString["algo"];
+          List<Tuple<int, String>> hsl;
+          Console.WriteLine(pattern);
+          Console.WriteLine(algo);
+          if (algo == "KMP")
+          {
+              Console.Write("Searching with KMP");
+              KMP kmp = new KMP("","");
+              hsl = kmp.SearchAllNews(Global.newslist, pattern);
+              Console.Write("Searching done");
 
-            Response.Write("<a style='text-decoration: none;' target=_blank href="+news.link+">");
-            Response.Write("<div class=item>");
-                Response.Write("<img src="+news.imagelink+">");
-                Response.Write("<span class='title'>"+news.title+"</span><br>");
-                Response.Write("<span class=brief>"+news.summary+"</span><br>");
-                Response.Write("<span class=source>"+"asd"+"</span>");
-            Response.Write("</div>");
-            Response.Write("</a>");
+          }
+          else if (algo == "BM")
+          {
+              BoyerMoore bm = new BoyerMoore("", "");
+              hsl = bm.SearchAllNews(Global.newslist, pattern);
+          }
+          else
+          {
+              RegexSearcher regex = new RegexSearcher("","");
+              hsl = regex.SearchAllNews(Global.newslist, pattern);
+          }
 
-            }
-        %>
+          try
+          {
+              foreach (var res in Global.newslist)
+              {
+                  Response.Write(res.description);
+              }
+          }
+          catch (Exception e)
+          {
+              Response.Write("News Not Found");
+          }
+        
+      %>
     </div>
     <div class="header">
         <a href="../"><img src="../asset/logo.png"></a>
@@ -48,7 +82,7 @@
                 <option>BM</option>
                 <option>REGEX</option>
             </select>
-            <button class="btn btn-primary"><i class="material-icons">search</i></button>
+            <button class="btn btn-primary">search</button>
         </form>
         </div>
     </div>

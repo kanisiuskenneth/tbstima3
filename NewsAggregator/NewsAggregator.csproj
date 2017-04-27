@@ -48,9 +48,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="parser\Parser.cs" />
-    <Compile Include="search\KMP.cs" />
-    <Compile Include="search\RegexSearcher.cs" />
-    <Compile Include="search\SearcherAlgorithm.cs" />
+    <Compile Include="searcher\BoyerMoore.cs" />
+    <Compile Include="searcher\KMP.cs" />
+    <Compile Include="searcher\RegexSearcher.cs" />
+    <Compile Include="searcher\SearcherAlgorithm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

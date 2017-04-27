@@ -20,6 +20,7 @@ namespace NewsAggregator.parser
         {
             int i = -1;
             HtmlWeb web = new HtmlWeb();
+            int count = 0;
             foreach (string url in Global.htmlurls)
             {
                 HtmlDocument document = web.Load(url);
@@ -64,6 +65,7 @@ namespace NewsAggregator.parser
                 else if (Regex.IsMatch(url, ".*viva.co.id"))
                 {
 
+                    Console.WriteLine("Viva");
                     foreach (HtmlNode divNode in document.DocumentNode.SelectNodes("//span[@itemprop]"))
                     {
                         HtmlAttribute attribute = divNode.Attributes["itemprop"];
@@ -121,7 +123,13 @@ namespace NewsAggregator.parser
                 description = description.Trim();
 
                 Global.newslist[i].description = description;
+                count++;
+                if (count == 10)
+                {
+                    break;
+                }
             }
+
         }
         public void XMLParser(List<string> urls)
         {
@@ -142,7 +150,6 @@ namespace NewsAggregator.parser
                         news.title = item.Title.Text;
 
                         Global.htmlurls.Add(item.Links[0].Uri.ToString());
-                        item.
                         news.link = item.Links[0].Uri.ToString();
                         news.imagelink = item.Links.Count > 1 ? item.Links[1].Uri.ToString() : "";
                         news.summary = item.Summary.Text;

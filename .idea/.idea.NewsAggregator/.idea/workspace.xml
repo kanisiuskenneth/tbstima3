@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ce458c-44b0-4fb7-a60e-def231bc3fed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/parser/Parser.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/asset/logo.png" afterPath="$PROJECT_DIR$/NewsAggregator/asset/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/searcher/KMP.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/searcher/RegexSearcher.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NewsAggregator/search/KMP.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs" afterPath="$PROJECT_DIR$/NewsAggregator/searcher/SearcherAlgorithm.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NewsAggregator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NewsAggregator/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator.userprefs" afterPath="$PROJECT_DIR$/NewsAggregator.userprefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" afterPath="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/NewsAggregator.csproj" afterPath="$PROJECT_DIR$/NewsAggregator/NewsAggregator.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/Style/search.css" afterPath="$PROJECT_DIR$/NewsAggregator/Style/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/Web.config" afterPath="$PROJECT_DIR$/NewsAggregator/Web.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/index.html" afterPath="$PROJECT_DIR$/NewsAggregator/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/parser/Parser.cs" afterPath="$PROJECT_DIR$/NewsAggregator/parser/Parser.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/views/search.aspx" afterPath="$PROJECT_DIR$/NewsAggregator/views/search.aspx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,57 +33,138 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Web.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegexSearcher.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/RegexSearcher.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="-1288">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
               <folding>
-                <marker date="1492630380000" expanded="true" signature="6:153" ph="..." />
-                <marker date="1492630380000" expanded="true" signature="171:683" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="224:681" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="310:331" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="376:675" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="536:605" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="610:665" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="6:182" ph="..." />
+                <marker date="1493313390000" expanded="true" signature="202:4368" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="255:4366" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="341:362" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="407:720" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="569:638" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="655:710" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="821:4360" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="980:4319" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="1163:1336" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="1341:4284" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="1508:2697" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="1633:1759" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="1764:2531" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="2022:2505" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="2163:2322" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="2327:2475" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="2702:4266" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="2869:4244" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="3010:3152" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="3185:4066" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="3469:4036" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="3622:3797" ph="{...}" />
+                <marker date="1493313390000" expanded="true" signature="3838:4002" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SearcherAlgorithm.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/SearcherAlgorithm.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="17">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
-                <marker date="1492630380000" expanded="false" signature="6:115" ph="..." />
-                <marker date="1492630380000" expanded="true" signature="133:648" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="179:646" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="292:342" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="389:445" ph="{...}" />
-                <marker date="1492630380000" expanded="true" signature="508:594" ph="{...}" />
+                <marker date="1493313166000" expanded="true" signature="6:144" ph="..." />
+                <marker date="1493313166000" expanded="true" signature="164:781" ph="{...}" />
+                <marker date="1493313166000" expanded="true" signature="210:779" ph="{...}" />
+                <marker date="1493313166000" expanded="true" signature="323:373" ph="{...}" />
+                <marker date="1493313166000" expanded="true" signature="420:476" ph="{...}" />
+                <marker date="1493313166000" expanded="true" signature="539:625" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoyerMoore.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/BoyerMoore.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding>
+                <marker date="1493313375000" expanded="true" signature="6:144" ph="..." />
+                <marker date="1493313375000" expanded="true" signature="164:5621" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="214:5619" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="297:318" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="375:715" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="475:542" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="596:671" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="760:1887" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="1006:1805" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="1147:1464" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="1205:1295" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="1324:1442" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="1489:1716" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="1822:1877" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="1988:5613" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="2146:5572" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="2342:2515" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="2536:5537" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="2683:3930" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="2808:2934" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="2963:3764" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="3223:3738" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="3364:3523" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="3560:3708" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="3955:5519" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="4122:5497" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="4263:4405" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="4438:5319" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="4722:5289" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="4875:5050" ph="{...}" />
+                <marker date="1493313375000" expanded="true" signature="5091:5255" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="KMP.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/search/KMP.cs">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/KMP.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="738">
+              <caret line="73" column="22" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+              <folding>
+                <marker date="1493316046000" expanded="true" signature="6:76" ph="..." />
+                <marker date="1493316046000" expanded="true" signature="96:5361" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="139:5359" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="215:236" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="281:1631" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="608:1032" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="668:793" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="825:900" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="921:1017" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="1106:1598" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="1163:1395" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="1229:1327" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="1427:1502" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="1523:1584" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="1732:5353" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="1926:5312" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="2082:2255" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="2276:5277" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="2423:3670" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="2548:2674" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="2703:3504" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="2963:3478" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="3104:3263" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="3300:3448" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="3695:5259" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="3862:5237" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="4003:4145" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="4178:5059" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="4462:5029" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="4615:4790" ph="{...}" />
+                <marker date="1493316046000" expanded="true" signature="4831:4995" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +180,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/style/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1275">
               <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
@@ -107,90 +189,101 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="packages.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/packages.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.aspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-              <folding>
-                <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
-                <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
-                <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
-                <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
-                <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
-                <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
-                <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
-                <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
-                <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Global.asax.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
-                <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
-                <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
-                <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
-                <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
-                <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+                <marker date="1493313966000" expanded="false" signature="6:168" ph="..." />
+                <marker date="1493313966000" expanded="true" signature="194:982" ph="{...}" />
+                <marker date="1493313966000" expanded="true" signature="235:980" ph="{...}" />
+                <marker date="1493313966000" expanded="true" signature="405:976" ph="{...}" />
+                <marker date="1493313966000" expanded="true" signature="705:814" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.aspx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+              <folding>
+                <marker date="1493316159000" expanded="true" signature="0:270" ph="&lt;!--...--&gt;" />
+                <marker date="1493316159000" expanded="true" signature="915:1039" ph="&lt;script.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="953:1025" ph="{...}" />
+                <marker date="1493316159000" expanded="true" signature="1048:3213" ph="&lt;body.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="1059:2392" ph="&lt;div.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="1087:1255" ph="&lt;a.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="1112:1244" ph="&lt;div.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="1262:2381" ph="&lt;% ... %&gt;" />
+                <marker date="1493316159000" expanded="true" signature="1517:1745" ph="{...}" />
+                <marker date="1493316159000" expanded="true" signature="1778:1920" ph="{...}" />
+                <marker date="1493316159000" expanded="true" signature="1935:2088" ph="{...}" />
+                <marker date="1493316159000" expanded="true" signature="2103:2261" ph="{...}" />
+                <marker date="1493316159000" expanded="true" signature="2166:2249" ph="{...}" />
+                <marker date="1493316159000" expanded="true" signature="2291:2363" ph="{...}" />
+                <marker date="1493316159000" expanded="true" signature="2397:2995" ph="&lt;div.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="2482:2984" ph="&lt;div.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="2509:2969" ph="&lt;form.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="2697:2893" ph="&lt;select.../&gt;" />
+                <marker date="1493316159000" expanded="true" signature="3005:3205" ph="&lt;script.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsAggregator/parser/Parser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="144" column="29" lean-forward="false" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <marker date="1493304853000" expanded="true" signature="6:165" ph="..." />
-                <marker date="1493304853000" expanded="true" signature="197:6086" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="221:389" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="406:6083" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="462:4717" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="589:4707" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="771:2213" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="967:1199" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="1056:1177" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="1372:1600" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="1459:1578" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="1727:2195" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="1851:2173" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="2027:2147" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="2274:2747" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="2398:2729" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="2564:2707" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="2812:4464" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="3057:3289" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="3146:3267" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="3462:3690" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="3549:3668" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="3788:4114" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="3949:4092" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="4283:4446" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="4766:6077" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="4817:4984" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="5043:6067" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="5118:6053" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="5219:6035" ph="{...}" />
-                <marker date="1493304853000" expanded="true" signature="5822:5962" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="6:165" ph="..." />
+                <marker date="1493315059000" expanded="true" signature="197:6252" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="221:389" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="406:6249" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="462:4913" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="616:4902" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="798:2240" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="994:1226" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="1083:1204" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="1399:1627" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="1486:1605" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="1754:2222" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="1878:2200" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="2054:2174" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="2301:2821" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="2472:2803" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="2638:2781" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="2886:4538" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="3131:3363" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="3220:3341" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="3536:3764" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="3623:3742" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="3862:4188" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="4023:4166" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="4357:4520" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="4825:4888" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="4962:6243" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="5013:5180" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="5239:6233" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="5314:6219" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="5415:6201" ph="{...}" />
+                <marker date="1493315059000" expanded="true" signature="5988:6128" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/style/search.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="104" column="20" lean-forward="false" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -207,10 +300,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>image</find>
+      <find>Write</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-design" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -219,14 +318,18 @@
         <option value="$PROJECT_DIR$/NewsAggregator/Pages/search.aspx" />
         <option value="$PROJECT_DIR$/NewsAggregator/Style/index.css" />
         <option value="$PROJECT_DIR$/NewsAggregator/Style/search.css" />
-        <option value="$PROJECT_DIR$/NewsAggregator/views/search.aspx" />
-        <option value="$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs" />
-        <option value="$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs" />
         <option value="$PROJECT_DIR$/NewsAggregator/index.html" />
-        <option value="$PROJECT_DIR$/NewsAggregator/search/KMP.cs" />
         <option value="$PROJECT_DIR$/NewsAggregator/Web.config" />
+        <option value="$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/search/KMP.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/search/BoyerMoore.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/searcher/BoyerMoore.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/searcher/RegexSearcher.cs" />
         <option value="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" />
         <option value="$PROJECT_DIR$/NewsAggregator/parser/Parser.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/views/search.aspx" />
+        <option value="$PROJECT_DIR$/NewsAggregator/searcher/KMP.cs" />
       </list>
     </option>
   </component>
@@ -363,7 +466,7 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
+              <option name="myItemId" value="searcher" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,12 +615,12 @@
       <workItem from="1492572431460" duration="5952000" />
       <workItem from="1492630093201" duration="844000" />
       <workItem from="1492681535877" duration="1070000" />
-      <workItem from="1493261883795" duration="5357000" />
+      <workItem from="1493261883795" duration="11092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35281000" />
+    <option name="totallyTimeSpent" value="41016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,24 +633,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19527897" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997253" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997253" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -568,40 +670,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
-            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
@@ -614,11 +699,11 @@
         <state relative-caret-position="300">
           <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
-            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+            <marker date="1493313966000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493313966000" expanded="true" signature="194:982" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="235:980" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="405:976" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="705:814" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
           </folding>
         </state>
       </provider>
@@ -627,6 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -654,14 +740,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
@@ -674,11 +761,11 @@
         <state relative-caret-position="345">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
-            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+            <marker date="1493313966000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493313966000" expanded="true" signature="194:982" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="235:980" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="405:976" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="705:814" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
           </folding>
         </state>
       </provider>
@@ -687,6 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,17 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
-            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,21 +814,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
-            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
@@ -763,11 +831,11 @@
         <state relative-caret-position="345">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
-            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+            <marker date="1493313966000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493313966000" expanded="true" signature="194:982" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="235:980" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="405:976" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="705:814" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
           </folding>
         </state>
       </provider>
@@ -776,13 +844,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,28 +884,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
-            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
@@ -847,6 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -855,11 +917,11 @@
         <state relative-caret-position="195">
           <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
-            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
-            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+            <marker date="1493313966000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493313966000" expanded="true" signature="194:982" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="235:980" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="405:976" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="705:814" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
           </folding>
         </state>
       </provider>
@@ -892,21 +954,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
-            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
@@ -919,11 +971,11 @@
         <state relative-caret-position="285">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
-            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
-            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+            <marker date="1493313966000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493313966000" expanded="true" signature="194:982" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="235:980" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="405:976" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="705:814" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
           </folding>
         </state>
       </provider>
@@ -932,13 +984,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -946,28 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,20 +1011,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/parser/Parser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
-            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
-            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
+            <marker date="1493315059000" expanded="true" signature="6:165" ph="..." />
+            <marker date="1493315059000" expanded="true" signature="197:6252" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="221:389" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="406:6249" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="462:4913" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="616:4902" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="798:2240" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="994:1226" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="1083:1204" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="1399:1627" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="1486:1605" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="1754:2222" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="1878:2200" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="2054:2174" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="2301:2821" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="2472:2803" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="2638:2781" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="2886:4538" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="3131:3363" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="3220:3341" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="3536:3764" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="3623:3742" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="3862:4188" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="4023:4166" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="4357:4520" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="4825:4888" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="4962:6243" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="5013:5180" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="5239:6233" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="5314:6219" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="5415:6201" ph="{...}" />
+            <marker date="1493315059000" expanded="true" signature="5988:6128" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/BoyerMoore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <marker date="1493313375000" expanded="true" signature="6:144" ph="..." />
+            <marker date="1493313375000" expanded="true" signature="164:5621" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="214:5619" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="297:318" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="375:715" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="475:542" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="596:671" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="760:1887" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="1006:1805" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="1147:1464" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="1205:1295" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="1324:1442" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="1489:1716" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="1822:1877" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="1988:5613" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="2146:5572" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="2342:2515" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="2536:5537" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="2683:3930" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="2808:2934" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="2963:3764" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="3223:3738" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="3364:3523" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="3560:3708" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="3955:5519" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="4122:5497" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="4263:4405" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="4438:5319" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="4722:5289" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="4875:5050" ph="{...}" />
+            <marker date="1493313375000" expanded="true" signature="5091:5255" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1005,103 +1116,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/search/KMP.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <marker date="1492630380000" expanded="false" signature="6:115" ph="..." />
-            <marker date="1492630380000" expanded="true" signature="133:648" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="179:646" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="292:342" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="389:445" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="508:594" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <marker date="1492630380000" expanded="true" signature="6:153" ph="..." />
-            <marker date="1492630380000" expanded="true" signature="171:683" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="224:681" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="310:331" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="376:675" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="536:605" ph="{...}" />
-            <marker date="1492630380000" expanded="true" signature="610:665" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
-            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
-            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
-            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+            <marker date="1493313966000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493313966000" expanded="true" signature="194:982" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="235:980" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="405:976" ph="{...}" />
+            <marker date="1493313966000" expanded="true" signature="705:814" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/parser/Parser.cs">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="144" column="29" lean-forward="false" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/style/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="104" column="20" lean-forward="false" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/SearcherAlgorithm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
-            <marker date="1493304853000" expanded="true" signature="6:165" ph="..." />
-            <marker date="1493304853000" expanded="true" signature="197:6086" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="221:389" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="406:6083" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="462:4717" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="589:4707" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="771:2213" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="967:1199" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="1056:1177" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="1372:1600" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="1459:1578" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="1727:2195" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="1851:2173" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="2027:2147" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="2274:2747" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="2398:2729" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="2564:2707" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="2812:4464" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="3057:3289" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="3146:3267" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="3462:3690" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="3549:3668" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="3788:4114" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="3949:4092" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="4283:4446" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="4766:6077" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="4817:4984" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="5043:6067" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="5118:6053" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="5219:6035" ph="{...}" />
-            <marker date="1493304853000" expanded="true" signature="5822:5962" ph="{...}" />
+            <marker date="1493313166000" expanded="true" signature="6:144" ph="..." />
+            <marker date="1493313166000" expanded="true" signature="164:781" ph="{...}" />
+            <marker date="1493313166000" expanded="true" signature="210:779" ph="{...}" />
+            <marker date="1493313166000" expanded="true" signature="323:373" ph="{...}" />
+            <marker date="1493313166000" expanded="true" signature="420:476" ph="{...}" />
+            <marker date="1493313166000" expanded="true" signature="539:625" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/RegexSearcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <marker date="1493313390000" expanded="true" signature="6:182" ph="..." />
+            <marker date="1493313390000" expanded="true" signature="202:4368" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="255:4366" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="341:362" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="407:720" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="569:638" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="655:710" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="821:4360" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="980:4319" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="1163:1336" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="1341:4284" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="1508:2697" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="1633:1759" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="1764:2531" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="2022:2505" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="2163:2322" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="2327:2475" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="2702:4266" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="2869:4244" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="3010:3152" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="3185:4066" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="3469:4036" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="3622:3797" ph="{...}" />
+            <marker date="1493313390000" expanded="true" signature="3838:4002" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/searcher/KMP.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="73" column="22" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding>
+            <marker date="1493316046000" expanded="true" signature="6:76" ph="..." />
+            <marker date="1493316046000" expanded="true" signature="96:5361" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="139:5359" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="215:236" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="281:1631" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="608:1032" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="668:793" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="825:900" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="921:1017" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="1106:1598" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="1163:1395" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="1229:1327" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="1427:1502" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="1523:1584" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="1732:5353" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="1926:5312" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="2082:2255" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="2276:5277" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="2423:3670" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="2548:2674" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="2703:3504" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="2963:3478" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="3104:3263" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="3300:3448" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="3695:5259" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="3862:5237" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="4003:4145" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="4178:5059" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="4462:5029" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="4615:4790" ph="{...}" />
+            <marker date="1493316046000" expanded="true" signature="4831:4995" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+          <folding>
+            <marker date="1493316159000" expanded="true" signature="0:270" ph="&lt;!--...--&gt;" />
+            <marker date="1493316159000" expanded="true" signature="915:1039" ph="&lt;script.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="953:1025" ph="{...}" />
+            <marker date="1493316159000" expanded="true" signature="1048:3213" ph="&lt;body.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="1059:2392" ph="&lt;div.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="1087:1255" ph="&lt;a.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="1112:1244" ph="&lt;div.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="1262:2381" ph="&lt;% ... %&gt;" />
+            <marker date="1493316159000" expanded="true" signature="1517:1745" ph="{...}" />
+            <marker date="1493316159000" expanded="true" signature="1778:1920" ph="{...}" />
+            <marker date="1493316159000" expanded="true" signature="1935:2088" ph="{...}" />
+            <marker date="1493316159000" expanded="true" signature="2103:2261" ph="{...}" />
+            <marker date="1493316159000" expanded="true" signature="2166:2249" ph="{...}" />
+            <marker date="1493316159000" expanded="true" signature="2291:2363" ph="{...}" />
+            <marker date="1493316159000" expanded="true" signature="2397:2995" ph="&lt;div.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="2482:2984" ph="&lt;div.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="2509:2969" ph="&lt;form.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="2697:2893" ph="&lt;select.../&gt;" />
+            <marker date="1493316159000" expanded="true" signature="3005:3205" ph="&lt;script.../&gt;" />
           </folding>
         </state>
       </provider>

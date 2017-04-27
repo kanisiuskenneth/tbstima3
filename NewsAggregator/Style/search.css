@@ -15,13 +15,13 @@ body {
 }
 
 .header img {
-    height: 50%;
+    height: 60%;
     margin-top: 15px;
     margin-left: 10px;
     position: relative;
 }
 
-.content {
+/*.content {
     position: static;
     padding-top: 75px;
     margin-left: 0px;
@@ -73,6 +73,50 @@ body {
     vertical-align: bottom;
     bottom: 0px;
 
+}*/
+
+.content {
+    position: fixed;
+    width: 100%
+    background: lightgray;
+    top: 100px;
+}
+.item {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 8px;
+    position: relative;
+    background: lightgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.item .itemhead {
+    margin-top: 1px;
+    position: absolute;
+    left: 0.5%;
+    height: 50%;
+    width: 99%;
+}
+
+.item .title {
+    display: inline;
+    top: 50%;
+    width: 100%;
+    background: white;
+    position: absolute;
+    font-size: 18;
+    height: 40%;
+}
+
+.item .itemfoot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background: red;
 }
 
 .form {
@@ -83,7 +127,7 @@ body {
     width: 50%;
     height: 30px;
 }
-div form {
+div form { 
     position: absolute;
     margin-top: 10px;
     vertical-align: middle;

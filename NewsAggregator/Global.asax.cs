@@ -20,7 +20,7 @@ namespace NewsAggregator
 	        htmlurls = new List<string>();
 
 	        List<string> urls = new List<string>();
-	        urls.Add("http://rss.detik.com/index.php");
+	        //urls.Add("http://rss.detik.com/index.php");
 	        urls.Add("http://rss.vivanews.com/get/all");
 	        //urls.Add("http://www.antaranews.com/rss/terkini");
 	        //urls.Add("https://www.tempo.co/rss/terkini");
