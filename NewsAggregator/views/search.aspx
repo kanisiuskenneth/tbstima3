@@ -69,7 +69,7 @@
           {
               Response.Write("News Not Found");
           }
-        
+
       %>
     </div>
     <div class="header">

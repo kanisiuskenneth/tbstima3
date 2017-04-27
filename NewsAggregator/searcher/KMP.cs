@@ -13,6 +13,7 @@ namespace searcher
 
         public override int SearchPattern()
         {
+            Console.WriteLine("Searching Pattern: " + pattern);
             /* Compute Border */
             int patternlength = this.pattern.Length;
             int textlength = this.text.Length;
