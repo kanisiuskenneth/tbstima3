@@ -1,5 +1,15 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupConfiguration="{EA4646F1-5C23-427D-92B9-506DEEB23558}|">
+  <MonoDevelop.Ide.ItemProperties.NewsAggregator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsAggregator/views/search.aspx">
+    <Files>
+      <File FileName="NewsAggregator/index.html" Line="1" Column="1" />
+      <File FileName="NewsAggregator/search/KMP.cs" Line="16" Column="12" />
+      <File FileName="NewsAggregator/search/SearcherAlgorithm.cs" Line="1" Column="1" />
+      <File FileName="NewsAggregator/search/RegexSearcher.cs" Line="1" Column="1" />
+      <File FileName="NewsAggregator/views/search.aspx" Line="55" Column="5" />
+      <File FileName="NewsAggregator/Style/search.css" Line="17" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

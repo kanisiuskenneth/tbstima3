@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" %>
 <%@ Import Namespace="System.ServiceModel.Syndication" %>
 <%@ Import Namespace="NewsAggregator" %>
+<%@ Import Namespace="NewsAggregator.parser" %>
 
 
 
@@ -22,22 +23,19 @@
         string query = Request.QueryString["query"];
         string algo = Request.QueryString["algo"];
 
-        foreach(SyndicationFeed feed in Global.feeds)
+        foreach(News news in Global.newslist)
         {
-            foreach (SyndicationItem item in feed.Items)
-            {
-                Response.Write("<a style='text-decoration: none;' target=_blank href="+item.Id+">");
-                Response.Write("<div class=item>");
-                    Response.Write("<span class='title'>"+item.Title.Text+"</span><br>");
-                    Response.Write("<span class=brief>"+item.Summary.Text+"</span><br>");
-                    Response.Write("<span class=source>"+feed.Title.Text+"</span>");
-                Response.Write("</div>");
-                Response.Write("</a>");
 
+            Response.Write("<a style='text-decoration: none;' target=_blank href="+news.link+">");
+            Response.Write("<div class=item>");
+                Response.Write("<img src="+news.imagelink+">");
+                Response.Write("<span class='title'>"+news.title+"</span><br>");
+                Response.Write("<span class=brief>"+news.summary+"</span><br>");
+                Response.Write("<span class=source>"+"asd"+"</span>");
+            Response.Write("</div>");
+            Response.Write("</a>");
 
             }
-
-        }
         %>
     </div>
     <div class="header">

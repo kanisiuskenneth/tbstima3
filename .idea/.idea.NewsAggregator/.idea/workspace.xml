@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ce458c-44b0-4fb7-a60e-def231bc3fed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/Style/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/views/search.aspx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logo.png" afterPath="$PROJECT_DIR$/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/.idea/.idea.NewsAggregator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/NewsAggregator/.idea/.idea.NewsAggregator/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewsAggregator/parser/Parser.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logo.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/asset/logo.png" afterPath="$PROJECT_DIR$/NewsAggregator/asset/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NewsAggregator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NewsAggregator/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator.userprefs" afterPath="$PROJECT_DIR$/NewsAggregator.userprefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" afterPath="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/NewsAggregator.csproj" afterPath="$PROJECT_DIR$/NewsAggregator/NewsAggregator.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/Style/index.css" afterPath="$PROJECT_DIR$/NewsAggregator/Style/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/Style/search.css" afterPath="$PROJECT_DIR$/NewsAggregator/Style/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/Web.config" afterPath="$PROJECT_DIR$/NewsAggregator/Web.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/index.html" afterPath="$PROJECT_DIR$/NewsAggregator/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsAggregator/views/search.aspx" afterPath="$PROJECT_DIR$/NewsAggregator/views/search.aspx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +21,87 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Web.config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegexSearcher.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <marker date="1492630380000" expanded="true" signature="6:153" ph="..." />
+                <marker date="1492630380000" expanded="true" signature="171:683" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="224:681" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="310:331" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="376:675" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="536:605" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="610:665" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearcherAlgorithm.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <marker date="1492630380000" expanded="false" signature="6:115" ph="..." />
+                <marker date="1492630380000" expanded="true" signature="133:648" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="179:646" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="292:342" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="389:445" ph="{...}" />
+                <marker date="1492630380000" expanded="true" signature="508:594" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KMP.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/search/KMP.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -42,80 +117,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding>
-                <element signature="e#1495#1501#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="search.aspx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="-60">
+              <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
-                <marker date="1492145461000" expanded="true" signature="776:2459" ph="&lt;body.../&gt;" />
-                <marker date="1492145461000" expanded="true" signature="787:1608" ph="&lt;div.../&gt;" />
-                <marker date="1492145461000" expanded="true" signature="817:1597" ph="&lt;% ... %&gt;" />
-                <marker date="1492145461000" expanded="true" signature="978:1586" ph="{...}" />
-                <marker date="1492145461000" expanded="true" signature="1045:1575" ph="{...}" />
-                <marker date="1492145461000" expanded="true" signature="1613:2241" ph="&lt;div.../&gt;" />
-                <marker date="1492145461000" expanded="true" signature="1698:2230" ph="&lt;div.../&gt;" />
-                <marker date="1492145461000" expanded="true" signature="1913:2109" ph="&lt;select.../&gt;" />
-                <marker date="1492145461000" expanded="true" signature="2251:2451" ph="&lt;script.../&gt;" />
+                <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
+                <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
+                <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
+                <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
+                <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
+                <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
+                <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
+                <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
+                <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Global.asax.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Global.asax.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="300">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <marker date="1492117654000" expanded="true" signature="6:174" ph="..." />
-                <marker date="1492117654000" expanded="true" signature="200:771" ph="{...}" />
-                <marker date="1492117654000" expanded="true" signature="241:769" ph="{...}" />
-                <marker date="1492117654000" expanded="true" signature="329:766" ph="{...}" />
-                <marker date="1492117654000" expanded="true" signature="632:762" ph="{...}" />
+                <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
+                <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
+                <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
+                <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
+                <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Global.asax" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
+      <file leaf-file-name="Parser.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NewsAggregator/parser/Parser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="254">
+              <caret line="144" column="29" lean-forward="false" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+              <folding>
+                <marker date="1493304853000" expanded="true" signature="6:165" ph="..." />
+                <marker date="1493304853000" expanded="true" signature="197:6086" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="221:389" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="406:6083" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="462:4717" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="589:4707" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="771:2213" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="967:1199" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="1056:1177" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="1372:1600" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="1459:1578" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="1727:2195" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="1851:2173" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="2027:2147" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="2274:2747" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="2398:2729" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="2564:2707" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="2812:4464" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="3057:3289" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="3146:3267" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="3462:3690" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="3549:3668" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="3788:4114" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="3949:4092" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="4283:4446" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="4766:6077" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="4817:4984" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="5043:6067" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="5118:6053" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="5219:6035" ph="{...}" />
+                <marker date="1493304853000" expanded="true" signature="5822:5962" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,6 +204,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>image</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -137,11 +217,16 @@
       <list>
         <option value="$PROJECT_DIR$/NewsAggregator/index.aspx" />
         <option value="$PROJECT_DIR$/NewsAggregator/Pages/search.aspx" />
-        <option value="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" />
-        <option value="$PROJECT_DIR$/NewsAggregator/index.html" />
         <option value="$PROJECT_DIR$/NewsAggregator/Style/index.css" />
-        <option value="$PROJECT_DIR$/NewsAggregator/views/search.aspx" />
         <option value="$PROJECT_DIR$/NewsAggregator/Style/search.css" />
+        <option value="$PROJECT_DIR$/NewsAggregator/views/search.aspx" />
+        <option value="$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/index.html" />
+        <option value="$PROJECT_DIR$/NewsAggregator/search/KMP.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/Web.config" />
+        <option value="$PROJECT_DIR$/NewsAggregator/Global.asax.cs" />
+        <option value="$PROJECT_DIR$/NewsAggregator/parser/Parser.cs" />
       </list>
     </option>
   </component>
@@ -193,6 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -202,6 +288,100 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NewsAggregator (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Global.asax" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Style" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsAggregator" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,6 +398,12 @@
     <property name="node.js.selected.package.eslint" value="" />
     <property name="SearchEverywhereHistoryKey" value=" 100%&#9;null&#9;null" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,6 +430,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -251,6 +444,9 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -267,6 +463,19 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
@@ -296,12 +505,19 @@
       <option name="presentableId" value="Default" />
       <updated>1492096493095</updated>
       <workItem from="1492096494543" duration="20145000" />
-      <workItem from="1492270192726" duration="13000" />
+      <workItem from="1492270192726" duration="162000" />
+      <workItem from="1492352106829" duration="1001000" />
+      <workItem from="1492409767691" duration="158000" />
+      <workItem from="1492417173164" duration="592000" />
+      <workItem from="1492572431460" duration="5952000" />
+      <workItem from="1492630093201" duration="844000" />
+      <workItem from="1492681535877" duration="1070000" />
+      <workItem from="1493261883795" duration="5357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20158000" />
+    <option name="totallyTimeSpent" value="35281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,31 +529,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19527897" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997253" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997253" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -352,6 +568,146 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
+            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
+            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -372,9 +728,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#1495#1501#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -383,15 +737,171 @@
         <state relative-caret-position="420">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
-            <marker date="1492145461000" expanded="true" signature="776:2459" ph="&lt;body.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="787:1608" ph="&lt;div.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="817:1597" ph="&lt;% ... %&gt;" />
-            <marker date="1492145461000" expanded="true" signature="978:1586" ph="{...}" />
-            <marker date="1492145461000" expanded="true" signature="1045:1575" ph="{...}" />
-            <marker date="1492145461000" expanded="true" signature="1613:2241" ph="&lt;div.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="1698:2230" ph="&lt;div.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="1913:2109" ph="&lt;select.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="2251:2451" ph="&lt;script.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
+            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
+            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
+            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -409,11 +919,11 @@
         <state relative-caret-position="285">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
-            <marker date="1492117654000" expanded="true" signature="6:174" ph="..." />
-            <marker date="1492117654000" expanded="true" signature="200:771" ph="{...}" />
-            <marker date="1492117654000" expanded="true" signature="241:769" ph="{...}" />
-            <marker date="1492117654000" expanded="true" signature="329:766" ph="{...}" />
-            <marker date="1492117654000" expanded="true" signature="632:762" ph="{...}" />
+            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
           </folding>
         </state>
       </provider>
@@ -422,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -430,14 +939,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
+    <entry file="file://$USER_HOME$/.config/NuGet/NuGet.Config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -450,68 +979,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#1495#1501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewsAggregator/views/search.aspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="-60">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
-            <marker date="1492145461000" expanded="true" signature="776:2459" ph="&lt;body.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="787:1608" ph="&lt;div.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="817:1597" ph="&lt;% ... %&gt;" />
-            <marker date="1492145461000" expanded="true" signature="978:1586" ph="{...}" />
-            <marker date="1492145461000" expanded="true" signature="1045:1575" ph="{...}" />
-            <marker date="1492145461000" expanded="true" signature="1613:2241" ph="&lt;div.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="1698:2230" ph="&lt;div.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="1913:2109" ph="&lt;select.../&gt;" />
-            <marker date="1492145461000" expanded="true" signature="2251:2451" ph="&lt;script.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="824:2435" ph="&lt;body.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="835:1584" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="865:1573" ph="&lt;% ... %&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1018:1562" ph="{...}" />
+            <marker date="1492577912000" expanded="true" signature="1589:2217" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1674:2206" ph="&lt;div.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1701:2191" ph="&lt;form.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="1889:2085" ph="&lt;select.../&gt;" />
+            <marker date="1492577912000" expanded="true" signature="2227:2427" ph="&lt;script.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/search.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsAggregator/Style/index.css">
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/search/KMP.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="85" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/search/SearcherAlgorithm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <marker date="1492630380000" expanded="false" signature="6:115" ph="..." />
+            <marker date="1492630380000" expanded="true" signature="133:648" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="179:646" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="292:342" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="389:445" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="508:594" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/search/RegexSearcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <marker date="1492630380000" expanded="true" signature="6:153" ph="..." />
+            <marker date="1492630380000" expanded="true" signature="171:683" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="224:681" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="310:331" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="376:675" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="536:605" ph="{...}" />
+            <marker date="1492630380000" expanded="true" signature="610:665" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NewsAggregator/Global.asax.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="300">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <marker date="1492117654000" expanded="true" signature="6:174" ph="..." />
-            <marker date="1492117654000" expanded="true" signature="200:771" ph="{...}" />
-            <marker date="1492117654000" expanded="true" signature="241:769" ph="{...}" />
-            <marker date="1492117654000" expanded="true" signature="329:766" ph="{...}" />
-            <marker date="1492117654000" expanded="true" signature="632:762" ph="{...}" />
+            <marker date="1493301224000" expanded="false" signature="6:168" ph="..." />
+            <marker date="1493301224000" expanded="true" signature="194:980" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="235:978" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="405:974" ph="{...}" />
+            <marker date="1493301224000" expanded="true" signature="703:812" ph="/* urls.Add(&quot;http://www.antaranews.com/rss/terkini&quot;); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsAggregator/parser/Parser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="144" column="29" lean-forward="false" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+          <folding>
+            <marker date="1493304853000" expanded="true" signature="6:165" ph="..." />
+            <marker date="1493304853000" expanded="true" signature="197:6086" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="221:389" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="406:6083" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="462:4717" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="589:4707" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="771:2213" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="967:1199" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="1056:1177" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="1372:1600" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="1459:1578" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="1727:2195" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="1851:2173" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="2027:2147" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="2274:2747" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="2398:2729" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="2564:2707" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="2812:4464" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="3057:3289" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="3146:3267" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="3462:3690" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="3549:3668" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="3788:4114" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="3949:4092" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="4283:4446" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="4766:6077" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="4817:4984" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="5043:6067" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="5118:6053" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="5219:6035" ph="{...}" />
+            <marker date="1493304853000" expanded="true" signature="5822:5962" ph="{...}" />
           </folding>
         </state>
       </provider>
