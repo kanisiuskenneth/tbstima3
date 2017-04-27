@@ -36,9 +36,17 @@
     <Reference Include="System.Web.Services" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="asset\.DS_Store" />
+    <Content Include="asset\favicon.png" />
+    <Content Include="asset\logo.png" />
+    <Content Include="asset\logo.psd" />
+    <Content Include="asset\logo.svg" />
+    <Content Include="asset\logo2.png" />
     <Content Include="Global.asax" />
+    <Content Include="style\about.css" />
     <Content Include="style\index.css" />
     <Content Include="style\search.css" />
+    <Content Include="views\about\index.html" />
     <Content Include="views\search.aspx" />
     <Content Include="Web.config" />
     <Content Include="index.html" />

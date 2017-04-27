@@ -72,7 +72,7 @@ namespace searcher
         {
             List<Tuple<int, string>> matchnews = new List<Tuple<int, string>>();
             int i = 0;
-            this.pattern = pattern;
+            this.pattern = pattern.ToLower();
             foreach (News news in newslist)
             {
                 if (news == null)
@@ -80,7 +80,7 @@ namespace searcher
                     continue;}
 
                 Console.WriteLine(news.title);
-                this.text = news.title;
+                this.text = news.title.ToLower();
 
                 int found;
                 Console.WriteLine("Searching in Title: ");
@@ -94,25 +94,25 @@ namespace searcher
                 else
                 {
                     Console.WriteLine("Searching in Summary: ");
-                    this.text = news.summary;
+                    this.text = news.summary.ToLower();
                     found = SearchPattern();
 
                     if (found != -1)
                     {
                         Console.WriteLine("Found");
                         string sentence;
-                        if (news.summary.Length - found > 20)
+                        if (news.summary.Length - found > 40)
                         {
-                            sentence = news.summary.Substring(found, 20);
+                            sentence = news.summary.Substring(found, 40);
                         }
                         else
                         {
 
                             int getsentence = news.summary.Length - found;
-                            sentence = news.summary.Substring(found, (getsentence > 20) ? 20 : getsentence);
-                            if (getsentence < 20)
+                            sentence = news.summary.Substring(found, (getsentence > 40) ? 40 : getsentence);
+                            if (getsentence < 40)
                             {
-                                int sisa = 20 - getsentence;
+                                int sisa = 40 - getsentence;
                                 if (found > sisa)
                                 {
                                     sentence = news.summary.Substring(found - sisa, sisa);
@@ -131,7 +131,7 @@ namespace searcher
                     else
                     {
                         Console.WriteLine("Searching in Text");
-                        this.text = news.description;
+                        this.text = news.description.ToLower();
                         found = SearchPattern();
 
 
@@ -139,17 +139,17 @@ namespace searcher
                         {
                             Console.WriteLine("Found");
                             string sentence;
-                            if (news.description.Length - found > 20)
+                            if (news.description.Length - found > 40)
                             {
-                                sentence = news.description.Substring(found, 20);
+                                sentence = news.description.Substring(found, 40);
                             }
                             else
                             {
                                 int getsentence = news.description.Length - found;
-                                sentence = news.description.Substring(found, (getsentence > 20) ? 20 : getsentence);
-                                if (getsentence < 20)
+                                sentence = news.description.Substring(found, (getsentence > 40) ? 40 : getsentence);
+                                if (getsentence < 40)
                                 {
-                                    int sisa = 20 - getsentence;
+                                    int sisa = 40 - getsentence;
                                     if (found > sisa)
                                     {
                                         sentence = news.description.Substring(found - sisa, sisa);

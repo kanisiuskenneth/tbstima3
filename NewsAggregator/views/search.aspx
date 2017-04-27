@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script>
         function redirect(x) {
-            alert(x);
-            window.location.assign(x);
+            //alert(x);
+            window.open(x,"_blank");
         }
     </script>
 </head>
@@ -60,13 +60,16 @@
           {
               foreach (var Item in hsl)
               {
-                  Response.Write("<div class=item onclick=>");
+                  Response.Write("<div class=item onclick=redirect('"+Global.newslist[Item.Item1].link+"')>");
                       Response.Write("<img class=itemhead src="+Global.newslist[Item.Item1].imagelink+">");
                       Response.Write("<span class=title align=center>"+Global.newslist[Item.Item1].title+"</span>");
                       Response.Write("<span class=itemfoot>"+Global.newslist[Item.Item1].source+
                                      " <font size=1><small>"+Global.newslist[Item.Item1].pubdate
                                      +"</small></font>"+"</span>");
-                      Response.Write("<div class=content>" + );
+                      Response.Write("<div class=content><p class=summary align=center><font size=4>"
+                                     +Global.newslist[Item.Item1].summary+"</font></p>" );
+                      Response.Write("<p class=foundat align=center>" +
+                                     "<font size=1>found at: ..."+Item.Item2+"...</font></p></div>");
                   Response.Write("</div>");
               }
           }
