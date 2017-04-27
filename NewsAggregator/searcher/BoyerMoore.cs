@@ -74,26 +74,34 @@ namespace searcher
         {
             List<Tuple<int, string>> matchnews = new List<Tuple<int, string>>();
             int i = 0;
+            this.pattern = pattern;
             foreach (News news in newslist)
             {
-                this.pattern = pattern;
+                if (news == null)
+                {
+                    continue;}
+
+                Console.WriteLine(news.title);
                 this.text = news.title;
 
                 int found;
-                found = this.SearchPattern();
+                Console.WriteLine("Searching in Title: ");
+                found = SearchPattern();
                 if (found != -1)
                 {
+                    Console.WriteLine("Found");
                     Tuple<int, string> newsfound = new Tuple<int, string>(i, news.title);
-
                     matchnews.Add(newsfound);
                 }
                 else
                 {
+                    Console.WriteLine("Searching in Summary: ");
                     this.text = news.summary;
-                    found = this.SearchPattern();
+                    found = SearchPattern();
 
                     if (found != -1)
                     {
+                        Console.WriteLine("Found");
                         string sentence;
                         if (news.summary.Length - found > 20)
                         {
@@ -101,6 +109,7 @@ namespace searcher
                         }
                         else
                         {
+
                             int getsentence = news.summary.Length - found;
                             sentence = news.summary.Substring(found, (getsentence > 20) ? 20 : getsentence);
                             if (getsentence < 20)
@@ -123,11 +132,14 @@ namespace searcher
                     }
                     else
                     {
+                        Console.WriteLine("Searching in Text");
                         this.text = news.description;
-                        found = this.SearchPattern();
+                        found = SearchPattern();
+
 
                         if (found != -1)
                         {
+                            Console.WriteLine("Found");
                             string sentence;
                             if (news.description.Length - found > 20)
                             {
@@ -158,9 +170,11 @@ namespace searcher
                     }
                 }
                 i++;
+                Console.WriteLine(i+" Done Searching in news, move on");
             }
-
+            Console.WriteLine("Done Searching");
             return matchnews;
+
         }
     }
 }

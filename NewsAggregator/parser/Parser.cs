@@ -13,6 +13,8 @@ namespace NewsAggregator.parser
         public string imagelink;
         public string link;
         public string description;
+        public string source;
+        public string pubdate;
     }
     class Parser
     {
@@ -124,10 +126,6 @@ namespace NewsAggregator.parser
 
                 Global.newslist[i].description = description;
                 count++;
-                if (count == 10)
-                {
-                    break;
-                }
             }
 
         }
@@ -160,6 +158,8 @@ namespace NewsAggregator.parser
                         {
                             news.summary = news.summary.Remove(awal, akhir - awal + 1);
                         }
+                        news.source = elmt.Title.Text;
+                        news.pubdate = item.PublishDate.ToString();
                         Global.newslist.Add(news);
                     }
                 }

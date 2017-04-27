@@ -10,7 +10,7 @@
 <!DOCTYPE html">
 <html>
 <head>
-    <link rel="stylesheet" href="../Style/search.css">
+    <link rel="stylesheet" href="../style/search.css">
     <link rel="icon" href="../asset/favicon.png">
     <title>SyndicateNews | Search</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,12 +26,6 @@
 </head>
 <body>
     <div class="content">
-      <a class=item>
-          <div>
-              <img class="itemhead" src="something.jpg"/>
-              <span class="title"> SOMEHTINF</span>
-          </div>
-      </a>
       <%
 
           string pattern = Request.QueryString["query"];
@@ -58,16 +52,23 @@
               hsl = regex.SearchAllNews(Global.newslist, pattern);
           }
 
-          try
+          if (hsl.Count == 0)
           {
-              foreach (var res in Global.newslist)
-              {
-                  Response.Write(res.description);
-              }
+              Response.Write("Not Found");
           }
-          catch (Exception e)
+          else
           {
-              Response.Write("News Not Found");
+              foreach (var Item in hsl)
+              {
+                  Response.Write("<div class=item onclick=>");
+                      Response.Write("<img class=itemhead src="+Global.newslist[Item.Item1].imagelink+">");
+                      Response.Write("<span class=title align=center>"+Global.newslist[Item.Item1].title+"</span>");
+                      Response.Write("<span class=itemfoot>"+Global.newslist[Item.Item1].source+
+                                     " <font size=1><small>"+Global.newslist[Item.Item1].pubdate
+                                     +"</small></font>"+"</span>");
+                      Response.Write("<div class=content>" + );
+                  Response.Write("</div>");
+              }
           }
 
       %>
@@ -82,7 +83,7 @@
                 <option>BM</option>
                 <option>REGEX</option>
             </select>
-            <button class="btn btn-primary">search</button>
+            <button class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
         </form>
         </div>
     </div>
